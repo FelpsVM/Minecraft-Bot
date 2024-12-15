@@ -20,3 +20,27 @@ Este projeto é um bot para o Minecraft que utiliza a biblioteca `mineflayer` pa
    ```bash
    git clone https://github.com/seu_usuario/bot-minecraft.git
    cd bot-minecraft
+   ```
+2. **Instale as dependências: No diretório do projeto, execute o seguinte comando para instalar as dependências necessárias**:
+
+```bash
+npm install
+```
+
+3. **Crie o arquivo de configuração Infs.json: O bot espera que um arquivo de configuração chamado Infs.json esteja presente no mesmo diretório do script. Este arquivo deve conter as seguintes informações**:
+```bash
+{
+  "host": "endereco_do_servidor", 
+  "port": 25565, 
+  "username": "nome_de_usuario_do_bot"
+}
+```
+**Exemplo**:
+```bash
+{
+  "host": "localhost",
+  "port": 25565,
+  "username": "BotMinerador"
+}
+```
+
